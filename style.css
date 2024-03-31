@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 970px;
+  }
+}
+
+.hero-section {
+  background: url('./assets/hero-bg.jpg');
+  background-size: cover;
+  background-position: top;
+  height: 65vh;
+}
+
+.hero-content h1 {
+  width: 70%;
+}
+
+@media (max-width: 992px) {
+  .hero-content > h1 {
+    width: 1200%;
+  }
+}
+
+/* .curved-div {
+  clip-path: ellipse(100% 55% at 48% 100%);
+  background: red;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: -7rem;
+  z-index: -1;
+} */
+
+.text-darkblue {
+  color: #0f2846;
+}
+
+.roboto-thin {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.roboto-light {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-black {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.roboto-thin-italic {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.roboto-light-italic {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.roboto-regular-italic {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.roboto-medium-italic {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.roboto-bold-italic {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.roboto-black-italic {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+@media (max-width: 576px) {
+  .stars {
+    width: 50% !important;
+  }
+}
+@media (min-width: 577px) and (max-width: 768px) {
+  .stars {
+    width: 40% !important;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  .stars {
+    width: 30% !important;
+  }
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+  .stars {
+    width: 50% !important;
+  }
+}
+
+@media (min-width: 1201px) {
+  .stars {
+    width: 40% !important;
+  }
+}
+
+.footer-icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+}
